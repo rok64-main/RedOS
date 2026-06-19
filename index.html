@@ -103,6 +103,14 @@ button:hover {
     background: #444;
 }
 
+.releases {
+    background: #2ea44f;
+}
+
+.releases:hover {
+    background: #22863a;
+}
+
 .footer {
     margin-top: 50px;
     color: #666;
@@ -119,7 +127,7 @@ button:hover {
     <img class="icon" src="icon.png" alt="RedOS Icon">
 
     <div class="subtitle">
-        A lightweight operating system
+        A lightweight operating system built from the ground up
     </div>
 
     <div class="info">
@@ -140,9 +148,13 @@ button:hover {
 
     <div class="buttons">
 
-        <a href="https://github.com/rok64-main/RedOS/releases/download/OS-Release/RedOS.iso" download>
+        <a href="RedOS.iso" download>
             <button>Download RedOS</button>
         </a>
+
+	<a href="https://github.com/rok64-main/RedOS/releases/tag/OS-Release" target="_blank">
+            <button class="releases">Other versions of RedOS</button>
+	</a>
 
         <a href="https://forms.gle/iwnUibXe8qx5xkcx6" target="_blank">
             <button class="bug">Bug Report</button>
